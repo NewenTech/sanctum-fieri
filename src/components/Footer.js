@@ -1,9 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
-		// <div className='container'>
-		<footer className='d-flex flex-wrap justify-content-between align-items-center m-5  border-top'>
+		<footer className='d-flex flex-wrap justify-content-between align-items-center m-5 border-top'>
 			<p className='col-md-4 mb-0 text-muted'>© 2023 Sanctum Fieri</p>
 			<a
 				href='https://abr.business.gov.au/ABN/View?abn=20334217357'
@@ -15,28 +15,23 @@ function Footer() {
 			</a>
 			<ul className='nav col-md-4 justify-content-end'>
 				<li className='nav-item'>
-					<a href='#' className='nav-link px-2 text-muted'>
+					<Link to='/' className='nav-link px-2 text-muted'>
 						Home
-					</a>
+					</Link>
 				</li>
 				<li className='nav-item'>
-					<a href='#' className='nav-link px-2 text-muted'>
+					<Link to='/about' className='nav-link px-2 text-muted'>
 						About
-					</a>
+					</Link>
 				</li>
+
 				<li className='nav-item'>
-					<a href='#' className='nav-link px-2 text-muted'>
-						FAQs
-					</a>
-				</li>
-				<li className='nav-item'>
-					<a href='#' className='nav-link px-2 text-muted'>
+					<Link to='/contact' className='nav-link px-2 text-muted'>
 						Contact
-					</a>
+					</Link>
 				</li>
-			</ul>{' '}
+			</ul>
 		</footer>
-		// </div>
 	);
 }
 
