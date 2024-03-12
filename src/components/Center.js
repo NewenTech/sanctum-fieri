@@ -32,7 +32,9 @@ function Center() {
 									<div className='card-body'>
 										<blockquote className='blockquote mb-0'>
 											<p>"With God, all things are possible."</p>
-											<footer className='blockquote-footer'>
+											<footer
+												className={`blockquote-footer ${classes.quote_author}`}
+											>
 												Saint Rita of Cascia
 											</footer>
 										</blockquote>
