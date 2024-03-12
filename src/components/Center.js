@@ -22,7 +22,7 @@ function Center() {
 					</h4>
 				</div>
 				<div className={`container ${classes.background_image} py-5}`}>
-					<h2 className='text-center py-5'>
+					<h2 className='text-center pt-5'>
 						Sanctity is Actually Possible, No Matter Your State in Life{' '}
 					</h2>
 					<div className='container mt-5'>

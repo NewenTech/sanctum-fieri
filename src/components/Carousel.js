@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import classes from './Carousel.module.css';
-import jacob from './images/jacob.webp';
-import josh from './images/josh.webp';
-import mateus from './images/mateus.webp';
+import jacob from '../images/jacob.webp';
+import josh from '../images/josh.webp';
+import mateus from '../images/mateus.webp';
 
 function MyCarousel() {
 	return (

@@ -1,5 +1,5 @@
 .background_image {
-	background-image: url('./images/around-the-st-peter-s-square-1221379_edi.webp');
+	background-image: url('../images/around-the-st-peter-s-square-1221379_edi.webp');
 	background-size: cover; /* Cover the entire section */
 	background-position: center; /* Center the image */
 	height: auto; /* Set the height of the section */
