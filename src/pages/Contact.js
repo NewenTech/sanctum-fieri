@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
 	return (
@@ -8,14 +10,14 @@ function Contact() {
 					<h2>Contact me:</h2>
 					<ul className='list-unstyled contact-info'>
 						<li>
-							<i className='fas fa-user'></i> Veronica Bucknell
+							<FontAwesomeIcon icon={faUser} /> Veronica Bucknell
 						</li>
 						<li>
-							<i className='fas fa-phone'></i> Phone:{' '}
+							<FontAwesomeIcon icon={faPhone} /> Phone:
 							<a href='tel:0424 147 971'>0424 147 971</a>
 						</li>
 						<li>
-							<i className='fas fa-envelope'></i> Email:{' '}
+							<FontAwesomeIcon icon={faEnvelope} /> Email:
 							<a href='mailto:veronica@email.com'>veronica@sanctumfieri.com</a>
 						</li>
 					</ul>
