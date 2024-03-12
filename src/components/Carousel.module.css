@@ -1,10 +1,10 @@
 .carousel_container {
 	margin: 0 auto; /* Center the carousel horizontally */
-	max-width: 800px; /* Optional: Set maximum width to limit carousel size */
+	max-width: 600px; /* Optional: Set maximum width to limit carousel size */
 }
 
 .image {
-	width: 75%; /* Adjust as needed */
+	width: 100%; /* Adjust as needed */
 	height: 600px; /* Adjust as needed */
 	object-fit: cover; /* Maintain aspect ratio */
 }
