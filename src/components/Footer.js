@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+	const year = new Date().getFullYear();
+
 	return (
 		<footer className='d-flex flex-wrap justify-content-between align-items-center m-5 border-top'>
-			<p className='col-md-4 mb-0 text-muted'>© 2023 Sanctum Fieri</p>
+			<p className='col-md-4 mb-0 text-muted'>© {year} Sanctum Fieri</p>
 			<a
 				href='https://abr.business.gov.au/ABN/View?abn=20334217357'
 				target='_blank'

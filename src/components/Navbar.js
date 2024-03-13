@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
 	return (
 		<nav
-			className='navbar navbar-expand-lg bg-body-tertiary rounded fs-3'
+			className='navbar navbar-expand-lg bg-body-tertiary rounded fs-4'
 			aria-label='navbar'
 		>
 			<div className='container-fluid'>

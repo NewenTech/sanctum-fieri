@@ -1,7 +1,13 @@
 import React from 'react';
+import Card from '../components/Card';
 
 function Services() {
-	return <h1>Services</h1>;
+	return (
+		<div>
+			<Card />
+			<Card />
+		</div>
+	);
 }
 
 export default Services;

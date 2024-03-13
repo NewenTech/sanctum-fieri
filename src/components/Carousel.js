@@ -7,7 +7,7 @@ import mateus from '../images/mateus.webp';
 
 function MyCarousel() {
 	return (
-		<div className={`py-5 ${classes.carousel_container}`}>
+		<div className={`py-3 ${classes.carousel_container}`}>
 			<Carousel fade>
 				<Carousel.Item>
 					<img
