@@ -1,7 +1,7 @@
 const servicesData = [
 	{
 		id: 0,
-		name: 'Online Course: Saintly Singleness',
+		title: 'Online Course: Saintly Singleness',
 		date: '04 Apr 2024, 8:00 pm – 20 June 2024, 8:00 pm',
 		location: 'Google Meet',
 		description:
@@ -9,7 +9,7 @@ const servicesData = [
 	},
 	{
 		id: 1,
-		name: '1:1 Counselling Sessions',
+		title: '1:1 Counselling Sessions',
 		date: 'TBD',
 		location: 'Zoom',
 		description:
