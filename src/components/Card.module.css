@@ -35,7 +35,7 @@
 		0.8
 	); /* Semi-transparent background for text */
 	position: absolute;
-	bottom: -10rem; /* Initially hidden */
+	bottom: -8rem; /* Initially hidden */
 	left: 0;
 	width: 100%;
 	transition: bottom 0.3s ease; /* Add transition for sliding effect */
