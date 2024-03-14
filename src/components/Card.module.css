@@ -1,39 +1,54 @@
+/* Card.module.css */
+
 .card {
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0.25rem;
-	transition: box-shadow 0.3s ease;
 	overflow: hidden;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-
-.card:hover {
-	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-}
-
-.cardImgTop {
+	position: relative;
 	transition: transform 0.3s ease;
 }
 
-.card:hover .cardImgTop {
+.card:hover {
+	transform: translateY(-20px); /* Slide up on hover */
+}
+
+.cardImgContainer {
+	overflow: hidden;
+}
+
+.cardImg {
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease;
+}
+
+.card:hover .cardImg {
 	transform: scale(1.1);
 }
 
 .cardBody {
-	overflow: hidden;
-	transition: max-height 0.5s ease;
-	max-height: 80px;
+	padding: 20px;
+	background-color: rgba(
+		255,
+		255,
+		255,
+		0.8
+	); /* Semi-transparent background for text */
+	position: absolute;
+	bottom: -10rem; /* Initially hidden */
+	left: 0;
+	width: 100%;
+	transition: bottom 0.3s ease; /* Add transition for sliding effect */
 }
 
 .card:hover .cardBody {
-	max-height: 100%;
+	bottom: 0; /* Slide up on hover */
 }
 
 .cardTitle {
-	font-size: 1.25rem;
-	margin-bottom: 0.5rem;
+	margin-bottom: 10px; /* Add some spacing below the title */
 }
 
 .cardText {
-	margin-bottom: 0;
+	margin-bottom: 0; /* Remove default margin for better spacing */
 }

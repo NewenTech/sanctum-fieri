@@ -17,16 +17,17 @@ function createCard(data) {
 function Card(props) {
 	return (
 		<div className={styles.card}>
-			<img
-				src={props.imageSrc}
-				className={styles.cardImgTop}
-				alt={props.title}
-			/>
+			<div className={styles.cardImgContainer}>
+				<img
+					src={props.imageSrc}
+					className={styles.cardImg}
+					alt={props.title}
+				/>
+			</div>
 			<div className={styles.cardBody}>
 				<h5 className={styles.cardTitle}>{props.title}</h5>
-				<p className='lead'>
-					{props.date} | {props.location}
-				</p>
+				<p className='lead'>{props.date}</p>
+				<p className='lead'>{props.location}</p>
 				<p className={styles.cardText}>{props.description}</p>
 			</div>
 		</div>
