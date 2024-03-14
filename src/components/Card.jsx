@@ -5,6 +5,7 @@ function createCard(data) {
 	return (
 		<Card
 			key={data.id}
+			imageSrc={data.imageSrc}
 			title={data.title}
 			date={data.date}
 			location={data.location}
@@ -23,6 +24,9 @@ function Card(props) {
 			/>
 			<div className={styles.cardBody}>
 				<h5 className={styles.cardTitle}>{props.title}</h5>
+				<p className='lead'>
+					{props.date} | {props.location}
+				</p>
 				<p className={styles.cardText}>{props.description}</p>
 			</div>
 		</div>

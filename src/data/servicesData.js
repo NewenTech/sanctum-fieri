@@ -1,6 +1,9 @@
+import one from '../images/one.webp';
+import group from '../images/group.webp';
 const servicesData = [
 	{
 		id: 0,
+		imageSrc: group,
 		title: 'Online Course: Saintly Singleness',
 		date: '04 Apr 2024, 8:00 pm – 20 June 2024, 8:00 pm',
 		location: 'Google Meet',
@@ -9,6 +12,7 @@ const servicesData = [
 	},
 	{
 		id: 1,
+		imageSrc: one,
 		title: '1:1 Counselling Sessions',
 		date: 'TBD',
 		location: 'Zoom',
