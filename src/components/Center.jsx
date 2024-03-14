@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Center.module.css';
-import QuoteCard from './QuoteCard';
 import quoteText from '../data/quotesText';
 import createQuote from './QuoteCard';
 
