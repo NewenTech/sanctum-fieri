@@ -1,11 +1,8 @@
 import React from 'react';
-import CreateCard from '../components/CreateCard';
+import { createCard } from '../components/Card';
 import servicesData from '../components/servicesData';
 
 function Services() {
-	const data = servicesData;
-	console.log(data);
-	return data.map(CreateCard);
+	return servicesData.map(createCard);
 }
-
 export default Services;

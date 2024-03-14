@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 function App() {
 	return (
-		<div>
+		<>
 			<Banner />
 			<Router>
 				<Navbar />
@@ -22,7 +22,7 @@ function App() {
 				</Routes>
 				<Footer />
 			</Router>
-		</div>
+		</>
 	);
 }
 
