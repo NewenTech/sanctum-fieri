@@ -27,7 +27,7 @@ function Center() {
 					<h2 className='text-center pt-5'>
 						Sanctity is Actually Possible, No Matter Your State in Life{' '}
 					</h2>
-					<div className='row'>
+					<div className='row py-5'>
 						{quoteText.map((quoteData) => createQuote(quoteData))}
 					</div>
 				</div>
